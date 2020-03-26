@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.yang4an.library.ExpandableTextView4List
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        app:collapseLines="3"
+        app:tipMarginTop="3dp"
+        app:tipPosition="bottom_start"
+        app:tipsColor="#8e8e93" />
+
+    <TextView
+        android:id="@+id/tv_conten1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:includeFontPadding="false"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+</LinearLayout>
